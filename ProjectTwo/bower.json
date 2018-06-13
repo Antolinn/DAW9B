@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTwo",
+  "homepage": "https://github.com/Antolinn/PA-projectASV",
+  "authors": [
+    "Antolinn <antolin.salazar.villanueva@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "My second Boostrap Project",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "bootstrap#^4.1.1",
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.0.13"
+  }
+}
