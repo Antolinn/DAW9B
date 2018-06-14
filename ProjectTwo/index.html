@@ -6,14 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <!-- se agrega la libreria de bootstrap para el estilos-->
-  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!-- se agrega la libreria de iconos -->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
 </head>
 <body>
+  <!-- Aqui va la barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light
+  fixed-top ">
+    <a href="index.html" class="navbar-brand">Company logo</a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion" class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item">
+          <a href="product.html" class="nav-link">Products</a></li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a></li>
+        <li class="nav-item">
+          <a href="contac.html" class="nav-link">Contact us</a></li>
+        <li class="nav-item">
+          <form class="form-inline">
+        <input class="form-control mr-sm-2"type="search" placeholder="search"
+        aria-label="search">
+        <button class="btn btn-outline-success my-2
+        my-sm-0" type="submit">Search</button>
+        </form>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!-- se agrega la libreria de bootstrap.js-->
-  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
 <!--  se agrega la libreria jquery para que bootstrap.js funcione-->
-<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/boostrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
