@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="bower_components/boostrap/dist/css/bootstrap.css">
   <!-- se agrega la libreria de iconos -->
   <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+<!--se agrega los estilos personalizados-->
+<link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
   <!-- Aqui va la barra de navegacion-->
-  <nav class="navbar navbar-expand-md navbar-light
-  fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
     <a href="index.html" class="navbar-brand">Company logo</a>
 
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
@@ -40,6 +42,26 @@
       </ul>
     </div>
   </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h1>Featured Product</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="btn-group btn-group-lg">
+          <button class="btn btn-info">Buy Bow</button>
+          <button class="btn btn-default">Free Trail</button>
+        </div>
+          <p><a href="#">Read more about the product</a></p>
+        </div>
+        <div class="col-md-8">
+        <div class="col-md-6 d-none d-sm-block" >
+        <img src="img/vegetto.jpg" alt="" width="400px" height="200px">
+        </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+
   <!-- se agrega la libreria de bootstrap.js-->
   <script src="bower_components/jquery/dist/jquery.js"></script>
 <!--  se agrega la libreria jquery para que bootstrap.js funcione-->
