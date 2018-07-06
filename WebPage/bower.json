@@ -1,0 +1,22 @@
+{
+  "name": "WebPage",
+  "homepage": "https://github.com/Antolinn/DAW9B",
+  "authors": [
+    "Antolinn <antolin.salazar.villanueva@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "My Web Page",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boostrap": "bootstrap#^4.1.1",
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.1.0"
+  }
+}
