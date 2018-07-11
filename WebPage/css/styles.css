@@ -1,3 +1,12 @@
 body{
-  padding-top: 70px;
+  padding-top: 0px;
 }
+.navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+
+    /* margen del jumbotron */
+     .jumbotron {
+      margin-bottom: 0;
+    }
