@@ -2,11 +2,13 @@ body{
   padding-top: 0px;
 }
 .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
+      margin-bottom: 0px;
+      border-radius: 0px;
     }
+    footer {
+          background-color: #333;
+          padding: 0px;
+          background-color: #333;
 
-    /* margen del jumbotron */
-     .jumbotron {
-      margin-bottom: 0;
-    }
+        }
+        
